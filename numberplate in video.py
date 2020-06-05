@@ -3,6 +3,7 @@ import cv2
 cas = cv2.CascadeClassifier('haarcascade_russian_plate_number.xml')
 
 # cam = cv2.VideoCapture("name of your video.mp4)
+# this will capture the number plates in Real time using your own camera 
 cam = cv2.VideoCapture(0)
 
 while True:
