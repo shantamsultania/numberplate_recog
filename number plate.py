@@ -1,6 +1,7 @@
 import cv2
 
-cas = cv2.CascadeClassifier('haarcascade_russian_plate_number.xml')
+# cas = cv2.CascadeClassifier('haarcascade_russian_plate_number.xml') # New version of cv2 does not support this method
+cas = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_russian_plate_number.xml')
 
 image = cv2.imread('download.jpg')
 
