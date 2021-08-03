@@ -1,4 +1,4 @@
-# numberplate_recog
+# Number plate recognition system
 
 This is an python program for number plate recognition system.
 
